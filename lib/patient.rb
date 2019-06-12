@@ -27,5 +27,5 @@ class Patient
     #Song.all.collect {|song| song.artist}
     
   end
-  binding.pry
+
 end
