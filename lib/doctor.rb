@@ -11,9 +11,9 @@ class Doctor
     @@all_doctors
   end
   
-  def new_appointment(date, patient)
+  def new_appointment(patient, date)
     appointment = Appointment.new(date, patient, self)
-   
+  # doctor_who.new_appointment(hevydevy, 'Friday, January 32nd')
     
   end
   
